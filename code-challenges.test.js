@@ -217,3 +217,23 @@ const fullHouse = (arr) => {
 // console.log(fullHouse(hand2))
 // console.log(fullHouse(hand3))
 // console.log(fullHouse(hand4))
+
+
+
+
+
+// HERE IS SOME REFACTORED CODE
+// const isFullHouse = (hand) => {
+//     const obj = {}
+//     hand.forEach((card) => {
+//       // first iteration goes through and sets the property to the number
+//       // sets the value to 1
+//       // If we have a hand [5, 5, 5, 2, 2]
+//       // the first property = 5 but the value = 1
+//       // So obj = { 5: 1 }
+//       obj[card] = obj[card] + 1 || 1
+//     })
+//     const result = Object.values(obj)
+//     return result.includes(2)
+//       && result.length === 2;
+//   }
